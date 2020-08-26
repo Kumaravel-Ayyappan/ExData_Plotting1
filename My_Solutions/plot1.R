@@ -12,7 +12,7 @@ reqdata <- subset(raw, Date == "2007-02-01" | Date == "2007-02-02")
 ## Plot 1
 X11(width = 6.7, height = 6.7) # Converted 480 pixels to inches (6.7)
 hist(reqdata$Global_active_power, col = "red",
-     xlab = "Global Active Power (kilowatts)", ylab = "frequency",
+     xlab = "Global Active Power (kilowatts)", ylab = "Frequency",
      main =  "Global Active Power",
      bg = "white")
 dev.copy(png, "plot1.png")
