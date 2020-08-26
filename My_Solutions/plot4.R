@@ -23,8 +23,7 @@ with(reqdata, plot(DT, Global_active_power, type = "l", xlab = "",
                    ylab = "Global Active Power"))
 
 #Plot2
-with(reqdata, plot(DT, Sub_metering_1, type = "l", xlab ="", 
-                   ylab = "Energy Sub Metering"))
+with(reqdata, plot(DT, Sub_metering_1, type = "l", xlab ="", ylab = "Energy Sub Metering"))
 with(reqdata, lines(DT, Sub_metering_2, col = "red"))
 with(reqdata, lines(DT, Sub_metering_3, col = "blue"))
 legend("topright", 
@@ -40,6 +39,6 @@ with(reqdata, plot(DT, Global_reactive_power, type = "l", xlab = "datetime"))
 
 #Saving as PNG
 dev.copy(png, file = "plot4.png")
-dev.off()
+dev
 
 
