@@ -1,4 +1,5 @@
 ## Introduction
+NOTE: This is a forked repo. The folder, My_Solutions contains all the R code files and PNG files.
 
 This assignment uses data from
 the <a href="http://archive.ics.uci.edu/ml/">UC Irvine Machine
