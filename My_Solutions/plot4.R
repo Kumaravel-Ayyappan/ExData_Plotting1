@@ -39,6 +39,6 @@ with(reqdata, plot(DT, Global_reactive_power, type = "l", xlab = "datetime"))
 
 #Saving as PNG
 dev.copy(png, file = "plot4.png")
-dev
+dev.off()
 
 
